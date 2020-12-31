@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/pramod/Desktop/wireguard-android/ui/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ar-rSA/values-ar-rSA.xml",
+            "map": [
+                {
+                    "source": "/home/pramod/Desktop/wireguard-android/ui/src/main/res/values-ar-rSA/strings.xml",
+                    "from": {
+                        "startLines": "2,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,448",
+                        "endLines": "9,17",
+                        "endColumns": "14,14",
+                        "endOffsets": "443,787"
+                    }
+                }
+            ]
+        }
+    ]
+}

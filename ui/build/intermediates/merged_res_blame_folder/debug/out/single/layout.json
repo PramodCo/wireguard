@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "/home/pramod/Desktop/wireguard-android/ui/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/add_tunnels_bottom_sheet.xml",
+        "source": "/home/pramod/Desktop/wireguard-android/ui/src/main/res/layout/add_tunnels_bottom_sheet.xml"
+    },
+    {
+        "merged": "/home/pramod/Desktop/wireguard-android/ui/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/tunnel_detail_fragment.xml",
+        "source": "/home/pramod/Desktop/wireguard-android/ui/src/main/res/layout/tunnel_detail_fragment.xml"
+    },
+    {
+        "merged": "/home/pramod/Desktop/wireguard-android/ui/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/tunnel_editor_fragment.xml",
+        "source": "/home/pramod/Desktop/wireguard-android/ui/src/main/res/layout/tunnel_editor_fragment.xml"
+    },
+    {
+        "merged": "/home/pramod/Desktop/wireguard-android/ui/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/tv_file_list_item.xml",
+        "source": "/home/pramod/Desktop/wireguard-android/ui/src/main/res/layout/tv_file_list_item.xml"
+    },
+    {
+        "merged": "/home/pramod/Desktop/wireguard-android/ui/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/tv_tunnel_list_item.xml",
+        "source": "/home/pramod/Desktop/wireguard-android/ui/src/main/res/layout/tv_tunnel_list_item.xml"
+    },
+    {
+        "merged": "/home/pramod/Desktop/wireguard-android/ui/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/tunnel_list_item.xml",
+        "source": "/home/pramod/Desktop/wireguard-android/ui/src/main/res/layout/tunnel_list_item.xml"
+    },
+    {
+        "merged": "/home/pramod/Desktop/wireguard-android/ui/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/main_activity.xml",
+        "source": "/home/pramod/Desktop/wireguard-android/ui/src/main/res/layout/main_activity.xml"
+    },
+    {
+        "merged": "/home/pramod/Desktop/wireguard-android/ui/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/tunnel_list_fragment.xml",
+        "source": "/home/pramod/Desktop/wireguard-android/ui/src/main/res/layout/tunnel_list_fragment.xml"
+    },
+    {
+        "merged": "/home/pramod/Desktop/wireguard-android/ui/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/config_naming_dialog_fragment.xml",
+        "source": "/home/pramod/Desktop/wireguard-android/ui/src/main/res/layout/config_naming_dialog_fragment.xml"
+    },
+    {
+        "merged": "/home/pramod/Desktop/wireguard-android/ui/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/tunnel_detail_peer.xml",
+        "source": "/home/pramod/Desktop/wireguard-android/ui/src/main/res/layout/tunnel_detail_peer.xml"
+    },
+    {
+        "merged": "/home/pramod/Desktop/wireguard-android/ui/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/log_viewer_entry.xml",
+        "source": "/home/pramod/Desktop/wireguard-android/ui/src/main/res/layout/log_viewer_entry.xml"
+    },
+    {
+        "merged": "/home/pramod/Desktop/wireguard-android/ui/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/tv_activity.xml",
+        "source": "/home/pramod/Desktop/wireguard-android/ui/src/main/res/layout/tv_activity.xml"
+    },
+    {
+        "merged": "/home/pramod/Desktop/wireguard-android/ui/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/app_list_item.xml",
+        "source": "/home/pramod/Desktop/wireguard-android/ui/src/main/res/layout/app_list_item.xml"
+    },
+    {
+        "merged": "/home/pramod/Desktop/wireguard-android/ui/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/tunnel_editor_peer.xml",
+        "source": "/home/pramod/Desktop/wireguard-android/ui/src/main/res/layout/tunnel_editor_peer.xml"
+    },
+    {
+        "merged": "/home/pramod/Desktop/wireguard-android/ui/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/app_list_dialog_fragment.xml",
+        "source": "/home/pramod/Desktop/wireguard-android/ui/src/main/res/layout/app_list_dialog_fragment.xml"
+    },
+    {
+        "merged": "/home/pramod/Desktop/wireguard-android/ui/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/log_viewer_activity.xml",
+        "source": "/home/pramod/Desktop/wireguard-android/ui/src/main/res/layout/log_viewer_activity.xml"
+    }
+]

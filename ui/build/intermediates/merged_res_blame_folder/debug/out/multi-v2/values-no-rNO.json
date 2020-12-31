@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/pramod/Desktop/wireguard-android/ui/build/intermediates/incremental/mergeDebugResources/merged.dir/values-no-rNO/values-no-rNO.xml",
+            "map": [
+                {
+                    "source": "/home/pramod/Desktop/wireguard-android/ui/src/main/res/values-no-rNO/strings.xml",
+                    "from": {
+                        "startLines": "2,13,9,18,19,6,21,20,7,8,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,595,419,822,873,238,975,920,302,360,757",
+                        "endLines": "5,16,12,18,19,6,21,20,7,8,17",
+                        "endColumns": "14,14,14,50,46,63,46,54,57,58,64",
+                        "endOffsets": "233,752,590,868,915,297,1017,970,355,414,817"
+                    },
+                    "to": {
+                        "startLines": "2,6,10,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,238,400,576,627,674,738,785,840,898,957",
+                        "endLines": "5,9,13,14,15,16,17,18,19,20,21",
+                        "endColumns": "14,14,14,50,46,63,46,54,57,58,64",
+                        "endOffsets": "233,395,571,622,669,733,780,835,893,952,1017"
+                    }
+                }
+            ]
+        }
+    ]
+}

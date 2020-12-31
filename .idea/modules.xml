@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wireguard-android.iml" filepath="$PROJECT_DIR$/.idea/modules/wireguard-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tunnel/wireguard-android.tunnel.iml" filepath="$PROJECT_DIR$/.idea/modules/tunnel/wireguard-android.tunnel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ui/wireguard-android.ui.iml" filepath="$PROJECT_DIR$/.idea/modules/ui/wireguard-android.ui.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/pramod/Desktop/wireguard-android-master/tunnel/.cxx/cmake/debug/x86_64",
+  "command": "/home/pramod/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=x86_64-none-linux-android21 --gcc-toolchain=/home/pramod/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/pramod/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I/home/pramod/Desktop/wireguard-android-master/tunnel/tools/wireguard-tools/src/uapi/linux -I/home/pramod/Desktop/wireguard-android-master/tunnel/tools/wireguard-tools/src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIE   -O3 -std=gnu11 -D_GNU_SOURCE -include /home/pramod/Desktop/wireguard-android-master/tunnel/tools/ndk-compat/compat.h -DHAVE_VISIBILITY_HIDDEN -DRUNSTATEDIR=\\\"/data/data/com.wireguard.android.debug/cache\\\" -o CMakeFiles/libwg.so.dir/ndk-compat/compat.c.o   -c /home/pramod/Desktop/wireguard-android-master/tunnel/tools/ndk-compat/compat.c",
+  "file": "/home/pramod/Desktop/wireguard-android-master/tunnel/tools/ndk-compat/compat.c"
+}
+]

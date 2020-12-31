@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/pramod/Desktop/wireguard-android/ui/build/intermediates/incremental/mergeDebugResources/merged.dir/values-da-rDK/values-da-rDK.xml",
+            "map": [
+                {
+                    "source": "/home/pramod/Desktop/wireguard-android/ui/src/main/res/values-da-rDK/strings.xml",
+                    "from": {
+                        "startLines": "2,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,251",
+                        "endLines": "5,9",
+                        "endColumns": "14,14",
+                        "endOffsets": "246,416"
+                    }
+                }
+            ]
+        }
+    ]
+}

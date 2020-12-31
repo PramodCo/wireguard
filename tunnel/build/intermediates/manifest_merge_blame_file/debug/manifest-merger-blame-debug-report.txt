@@ -1,0 +1,34 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  ~ Copyright © 2017-2019 WireGuard LLC. All Rights Reserved.
+4  ~ SPDX-License-Identifier: Apache-2.0
+5-->
+6<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+7    package="com.wireguard.android.tunnel"
+8    android:versionCode="485"
+9    android:versionName="1.0.20201224" >
+10
+11    <uses-sdk
+12        android:minSdkVersion="21"
+12-->/home/pramod/Desktop/wireguard-android/tunnel/src/main/AndroidManifest.xml
+13        android:targetSdkVersion="30" />
+13-->/home/pramod/Desktop/wireguard-android/tunnel/src/main/AndroidManifest.xml
+14
+15    <application>
+15-->/home/pramod/Desktop/wireguard-android/tunnel/src/main/AndroidManifest.xml:9:5-17:19
+16        <service
+16-->/home/pramod/Desktop/wireguard-android/tunnel/src/main/AndroidManifest.xml:10:9-16:19
+17            android:name="com.wireguard.android.backend.GoBackend$VpnService"
+17-->/home/pramod/Desktop/wireguard-android/tunnel/src/main/AndroidManifest.xml:11:13-78
+18            android:permission="android.permission.BIND_VPN_SERVICE" >
+18-->/home/pramod/Desktop/wireguard-android/tunnel/src/main/AndroidManifest.xml:12:13-69
+19            <intent-filter>
+19-->/home/pramod/Desktop/wireguard-android/tunnel/src/main/AndroidManifest.xml:13:13-15:29
+20                <action android:name="android.net.VpnService" />
+20-->/home/pramod/Desktop/wireguard-android/tunnel/src/main/AndroidManifest.xml:14:17-65
+20-->/home/pramod/Desktop/wireguard-android/tunnel/src/main/AndroidManifest.xml:14:25-62
+21            </intent-filter>
+22        </service>
+23    </application>
+24
+25</manifest>

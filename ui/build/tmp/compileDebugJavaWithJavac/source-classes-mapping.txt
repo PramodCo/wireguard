@@ -1,0 +1,98 @@
+com/wireguard/android/databinding/TunnelEditorFragmentBindingImpl.java
+ com.wireguard.android.databinding.TunnelEditorFragmentBindingImpl
+ com.wireguard.android.databinding.TunnelEditorFragmentBindingImpl$1
+ com.wireguard.android.databinding.TunnelEditorFragmentBindingImpl$2
+ com.wireguard.android.databinding.TunnelEditorFragmentBindingImpl$3
+ com.wireguard.android.databinding.TunnelEditorFragmentBindingImpl$4
+ com.wireguard.android.databinding.TunnelEditorFragmentBindingImpl$5
+ com.wireguard.android.databinding.TunnelEditorFragmentBindingImpl$6
+ com.wireguard.android.databinding.TunnelEditorFragmentBindingImpl$OnClickListenerImpl
+ com.wireguard.android.databinding.TunnelEditorFragmentBindingImpl$OnClickListenerImpl1
+ com.wireguard.android.databinding.TunnelEditorFragmentBindingImpl$OnClickListenerImpl2
+ com.wireguard.android.databinding.TunnelEditorFragmentBindingImpl$OnFocusChangeListenerImpl
+com/wireguard/android/databinding/TvActivityBindingImpl.java
+ com.wireguard.android.databinding.TvActivityBindingImpl
+com/wireguard/android/databinding/TunnelEditorFragmentBinding.java
+ com.wireguard.android.databinding.TunnelEditorFragmentBinding
+com/wireguard/android/databinding/TvTunnelListItemBindingImpl.java
+ com.wireguard.android.databinding.TvTunnelListItemBindingImpl
+com/wireguard/android/databinding/AppListItemBinding.java
+ com.wireguard.android.databinding.AppListItemBinding
+com/wireguard/android/databinding/TunnelDetailFragmentBindingImpl.java
+ com.wireguard.android.databinding.TunnelDetailFragmentBindingImpl
+ com.wireguard.android.databinding.TunnelDetailFragmentBindingImpl$OnBeforeCheckedChangeListenerImpl
+ com.wireguard.android.databinding.TunnelDetailFragmentBindingImpl$OnClickListenerImpl
+androidx/databinding/DataBinderMapperImpl.java
+ androidx.databinding.DataBinderMapperImpl
+com/wireguard/android/databinding/TunnelListFragmentBindingImpl.java
+ com.wireguard.android.databinding.TunnelListFragmentBindingImpl
+androidx/databinding/library/baseAdapters/BR.java
+ androidx.databinding.library.baseAdapters.BR
+com/wireguard/android/databinding/TunnelDetailPeerBinding.java
+ com.wireguard.android.databinding.TunnelDetailPeerBinding
+com/wireguard/android/databinding/TunnelListItemBindingImpl.java
+ com.wireguard.android.databinding.TunnelListItemBindingImpl
+ com.wireguard.android.databinding.TunnelListItemBindingImpl$OnBeforeCheckedChangeListenerImpl
+com/wireguard/android/databinding/AppListItemBindingImpl.java
+ com.wireguard.android.databinding.AppListItemBindingImpl
+ com.wireguard.android.databinding.AppListItemBindingImpl$1
+com/wireguard/android/databinding/TvTunnelListItemBinding.java
+ com.wireguard.android.databinding.TvTunnelListItemBinding
+com/wireguard/android/databinding/LogViewerEntryBinding.java
+ com.wireguard.android.databinding.LogViewerEntryBinding
+com/wireguard/android/databinding/TunnelDetailPeerBindingImpl.java
+ com.wireguard.android.databinding.TunnelDetailPeerBindingImpl
+ com.wireguard.android.databinding.TunnelDetailPeerBindingImpl$OnClickListenerImpl
+com/wireguard/android/databinding/TunnelDetailFragmentBinding.java
+ com.wireguard.android.databinding.TunnelDetailFragmentBinding
+com/wireguard/android/DataBindingTriggerClass.java
+ com.wireguard.android.DataBindingTriggerClass
+com/wireguard/android/databinding/TvFileListItemBinding.java
+ com.wireguard.android.databinding.TvFileListItemBinding
+com/wireguard/android/BR.java
+ com.wireguard.android.BR
+com/wireguard/android/databinding/LogViewerActivityBinding.java
+ com.wireguard.android.databinding.LogViewerActivityBinding
+com/wireguard/android/generated/callback/OnClickListener.java
+ com.wireguard.android.generated.callback.OnClickListener
+ com.wireguard.android.generated.callback.OnClickListener$Listener
+com/wireguard/android/databinding/TunnelEditorPeerBinding.java
+ com.wireguard.android.databinding.TunnelEditorPeerBinding
+com/wireguard/android/DataBinderMapperImpl.java
+ com.wireguard.android.DataBinderMapperImpl
+ com.wireguard.android.DataBinderMapperImpl$InnerBrLookup
+ com.wireguard.android.DataBinderMapperImpl$InnerLayoutIdLookup
+com/wireguard/android/databinding/ConfigNamingDialogFragmentBindingImpl.java
+ com.wireguard.android.databinding.ConfigNamingDialogFragmentBindingImpl
+com/wireguard/android/databinding/TunnelListItemBinding.java
+ com.wireguard.android.databinding.TunnelListItemBinding
+com/wireguard/android/BuildConfig.java
+ com.wireguard.android.BuildConfig
+com/wireguard/android/databinding/ConfigNamingDialogFragmentBinding.java
+ com.wireguard.android.databinding.ConfigNamingDialogFragmentBinding
+com/wireguard/android/databinding/TunnelEditorPeerBindingImpl.java
+ com.wireguard.android.databinding.TunnelEditorPeerBindingImpl
+ com.wireguard.android.databinding.TunnelEditorPeerBindingImpl$1
+ com.wireguard.android.databinding.TunnelEditorPeerBindingImpl$2
+ com.wireguard.android.databinding.TunnelEditorPeerBindingImpl$3
+ com.wireguard.android.databinding.TunnelEditorPeerBindingImpl$4
+ com.wireguard.android.databinding.TunnelEditorPeerBindingImpl$5
+ com.wireguard.android.databinding.TunnelEditorPeerBindingImpl$6
+ com.wireguard.android.databinding.TunnelEditorPeerBindingImpl$OnClickListenerImpl
+ com.wireguard.android.databinding.TunnelEditorPeerBindingImpl$OnFocusChangeListenerImpl
+com/wireguard/android/databinding/TunnelListFragmentBinding.java
+ com.wireguard.android.databinding.TunnelListFragmentBinding
+com/wireguard/android/databinding/MainActivityBinding.java
+ com.wireguard.android.databinding.MainActivityBinding
+com/wireguard/android/databinding/AppListDialogFragmentBindingImpl.java
+ com.wireguard.android.databinding.AppListDialogFragmentBindingImpl
+com/wireguard/android/databinding/AppListDialogFragmentBinding.java
+ com.wireguard.android.databinding.AppListDialogFragmentBinding
+com/wireguard/android/databinding/TvActivityBinding.java
+ com.wireguard.android.databinding.TvActivityBinding
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent
+com/wireguard/android/databinding/TvFileListItemBindingImpl.java
+ com.wireguard.android.databinding.TvFileListItemBindingImpl
+com/wireguard/android/databinding/AddTunnelsBottomSheetBinding.java
+ com.wireguard.android.databinding.AddTunnelsBottomSheetBinding

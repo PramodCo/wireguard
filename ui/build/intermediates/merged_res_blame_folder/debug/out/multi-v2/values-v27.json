@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/pramod/Desktop/wireguard-android/ui/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v27/values-v27.xml",
+            "map": [
+                {
+                    "source": "/home/pramod/Desktop/wireguard-android/ui/src/main/res/values-v27/styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "115",
+                        "endLines": "27",
+                        "endColumns": "12",
+                        "endOffsets": "1880"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "26",
+                        "endColumns": "12",
+                        "endOffsets": "1820"
+                    }
+                }
+            ]
+        }
+    ]
+}

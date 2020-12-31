@@ -1,0 +1,5 @@
+/home/pramod/Desktop/wireguard-android-master/tunnel/.cxx/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/home/pramod/Desktop/wireguard-android-master/tunnel/.cxx/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/pramod/Desktop/wireguard-android-master/tunnel/.cxx/cmake/release/armeabi-v7a/CMakeFiles/libwg-go.so.dir
+/home/pramod/Desktop/wireguard-android-master/tunnel/.cxx/cmake/release/armeabi-v7a/CMakeFiles/libwg.so.dir
+/home/pramod/Desktop/wireguard-android-master/tunnel/.cxx/cmake/release/armeabi-v7a/CMakeFiles/libwg-quick.so.dir

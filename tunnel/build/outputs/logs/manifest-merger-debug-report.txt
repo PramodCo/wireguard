@@ -1,0 +1,51 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/pramod/Desktop/wireguard-android/tunnel/src/main/AndroidManifest.xml:6:1-18:12
+INJECTED from /home/pramod/Desktop/wireguard-android/tunnel/src/main/AndroidManifest.xml:6:1-18:12
+INJECTED from /home/pramod/Desktop/wireguard-android/tunnel/src/main/AndroidManifest.xml:6:1-18:12
+INJECTED from /home/pramod/Desktop/wireguard-android/tunnel/src/main/AndroidManifest.xml:6:1-18:12
+INJECTED from /home/pramod/Desktop/wireguard-android/tunnel/src/main/AndroidManifest.xml:6:1-18:12
+INJECTED from /home/pramod/Desktop/wireguard-android/tunnel/src/main/AndroidManifest.xml:6:1-18:12
+INJECTED from /home/pramod/Desktop/wireguard-android/tunnel/src/main/AndroidManifest.xml:6:1-18:12
+	package
+		ADDED from /home/pramod/Desktop/wireguard-android/tunnel/src/main/AndroidManifest.xml:7:5-43
+		INJECTED from /home/pramod/Desktop/wireguard-android/tunnel/src/main/AndroidManifest.xml
+		INJECTED from /home/pramod/Desktop/wireguard-android/tunnel/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/pramod/Desktop/wireguard-android/tunnel/src/main/AndroidManifest.xml
+		ADDED from /home/pramod/Desktop/wireguard-android/tunnel/src/main/AndroidManifest.xml:6:1-18:12
+		INJECTED from /home/pramod/Desktop/wireguard-android/tunnel/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/pramod/Desktop/wireguard-android/tunnel/src/main/AndroidManifest.xml
+		ADDED from /home/pramod/Desktop/wireguard-android/tunnel/src/main/AndroidManifest.xml:6:1-18:12
+		INJECTED from /home/pramod/Desktop/wireguard-android/tunnel/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/pramod/Desktop/wireguard-android/tunnel/src/main/AndroidManifest.xml:6:11-69
+application
+ADDED from /home/pramod/Desktop/wireguard-android/tunnel/src/main/AndroidManifest.xml:9:5-17:19
+service#com.wireguard.android.backend.GoBackend$VpnService
+ADDED from /home/pramod/Desktop/wireguard-android/tunnel/src/main/AndroidManifest.xml:10:9-16:19
+	android:permission
+		ADDED from /home/pramod/Desktop/wireguard-android/tunnel/src/main/AndroidManifest.xml:12:13-69
+	android:name
+		ADDED from /home/pramod/Desktop/wireguard-android/tunnel/src/main/AndroidManifest.xml:11:13-78
+intent-filter#action:name:android.net.VpnService
+ADDED from /home/pramod/Desktop/wireguard-android/tunnel/src/main/AndroidManifest.xml:13:13-15:29
+action#android.net.VpnService
+ADDED from /home/pramod/Desktop/wireguard-android/tunnel/src/main/AndroidManifest.xml:14:17-65
+	android:name
+		ADDED from /home/pramod/Desktop/wireguard-android/tunnel/src/main/AndroidManifest.xml:14:25-62
+uses-sdk
+INJECTED from /home/pramod/Desktop/wireguard-android/tunnel/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/pramod/Desktop/wireguard-android/tunnel/src/main/AndroidManifest.xml
+INJECTED from /home/pramod/Desktop/wireguard-android/tunnel/src/main/AndroidManifest.xml
+INJECTED from /home/pramod/Desktop/wireguard-android/tunnel/src/main/AndroidManifest.xml
+INJECTED from /home/pramod/Desktop/wireguard-android/tunnel/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/pramod/Desktop/wireguard-android/tunnel/src/main/AndroidManifest.xml
+		ADDED from /home/pramod/Desktop/wireguard-android/tunnel/src/main/AndroidManifest.xml
+		INJECTED from /home/pramod/Desktop/wireguard-android/tunnel/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/pramod/Desktop/wireguard-android/tunnel/src/main/AndroidManifest.xml
+		ADDED from /home/pramod/Desktop/wireguard-android/tunnel/src/main/AndroidManifest.xml
+		INJECTED from /home/pramod/Desktop/wireguard-android/tunnel/src/main/AndroidManifest.xml

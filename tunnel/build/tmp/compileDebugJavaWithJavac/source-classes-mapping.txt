@@ -1,0 +1,79 @@
+com/wireguard/config/BadConfigException.java
+ com.wireguard.config.BadConfigException
+ com.wireguard.config.BadConfigException$Location
+ com.wireguard.config.BadConfigException$Reason
+ com.wireguard.config.BadConfigException$Section
+com/wireguard/config/InetEndpoint.java
+ com.wireguard.config.InetEndpoint
+com/wireguard/util/NonNullForAll.java
+ com.wireguard.util.NonNullForAll
+com/wireguard/android/util/ModuleLoader.java
+ com.wireguard.android.util.ModuleLoader
+ com.wireguard.android.util.ModuleLoader$1
+ com.wireguard.android.util.ModuleLoader$Sha256Digest
+com/wireguard/config/ParseException.java
+ com.wireguard.config.ParseException
+com/wireguard/android/util/SharedLibraryLoader.java
+ com.wireguard.android.util.SharedLibraryLoader
+com/wireguard/config/Peer.java
+ com.wireguard.config.Peer
+ com.wireguard.config.Peer$1
+ com.wireguard.config.Peer$Builder
+com/wireguard/config/Config.java
+ com.wireguard.config.Config
+ com.wireguard.config.Config$1
+ com.wireguard.config.Config$Builder
+com/wireguard/crypto/Ed25519.java
+ com.wireguard.crypto.Ed25519
+ com.wireguard.crypto.Ed25519$1
+ com.wireguard.crypto.Ed25519$CachedXYT
+ com.wireguard.crypto.Ed25519$CachedXYZT
+ com.wireguard.crypto.Ed25519$Field25519
+ com.wireguard.crypto.Ed25519$PartialXYZT
+ com.wireguard.crypto.Ed25519$Point
+ com.wireguard.crypto.Ed25519$XYZ
+ com.wireguard.crypto.Ed25519$XYZT
+com/wireguard/config/Attribute.java
+ com.wireguard.config.Attribute
+com/wireguard/android/util/ToolsInstaller.java
+ com.wireguard.android.util.ToolsInstaller
+com/wireguard/config/Interface.java
+ com.wireguard.config.Interface
+ com.wireguard.config.Interface$1
+ com.wireguard.config.Interface$Builder
+com/wireguard/android/backend/Tunnel.java
+ com.wireguard.android.backend.Tunnel
+ com.wireguard.android.backend.Tunnel$State
+com/wireguard/crypto/Curve25519.java
+ com.wireguard.crypto.Curve25519
+com/wireguard/android/util/RootShell.java
+ com.wireguard.android.util.RootShell
+ com.wireguard.android.util.RootShell$RootShellException
+ com.wireguard.android.util.RootShell$RootShellException$Reason
+com/wireguard/android/backend/GoBackend.java
+ com.wireguard.android.backend.GoBackend
+ com.wireguard.android.backend.GoBackend$1
+ com.wireguard.android.backend.GoBackend$AlwaysOnCallback
+ com.wireguard.android.backend.GoBackend$GhettoCompletableFuture
+ com.wireguard.android.backend.GoBackend$VpnService
+com/wireguard/config/InetNetwork.java
+ com.wireguard.config.InetNetwork
+com/wireguard/android/backend/WgQuickBackend.java
+ com.wireguard.android.backend.WgQuickBackend
+com/wireguard/crypto/KeyFormatException.java
+ com.wireguard.crypto.KeyFormatException
+ com.wireguard.crypto.KeyFormatException$Type
+com/wireguard/android/backend/BackendException.java
+ com.wireguard.android.backend.BackendException
+ com.wireguard.android.backend.BackendException$Reason
+com/wireguard/android/backend/Statistics.java
+ com.wireguard.android.backend.Statistics
+com/wireguard/crypto/KeyPair.java
+ com.wireguard.crypto.KeyPair
+com/wireguard/crypto/Key.java
+ com.wireguard.crypto.Key
+ com.wireguard.crypto.Key$Format
+com/wireguard/config/InetAddresses.java
+ com.wireguard.config.InetAddresses
+com/wireguard/android/backend/Backend.java
+ com.wireguard.android.backend.Backend

@@ -1,0 +1,5 @@
+/home/pramod/Desktop/wireguard-android-master/tunnel/.cxx/cmake/debug/x86_64/CMakeFiles/rebuild_cache.dir
+/home/pramod/Desktop/wireguard-android-master/tunnel/.cxx/cmake/debug/x86_64/CMakeFiles/edit_cache.dir
+/home/pramod/Desktop/wireguard-android-master/tunnel/.cxx/cmake/debug/x86_64/CMakeFiles/libwg-go.so.dir
+/home/pramod/Desktop/wireguard-android-master/tunnel/.cxx/cmake/debug/x86_64/CMakeFiles/libwg.so.dir
+/home/pramod/Desktop/wireguard-android-master/tunnel/.cxx/cmake/debug/x86_64/CMakeFiles/libwg-quick.so.dir

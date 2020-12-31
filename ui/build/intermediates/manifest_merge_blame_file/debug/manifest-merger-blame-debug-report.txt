@@ -1,0 +1,310 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.wireguard.android.debug"
+4    android:installLocation="internalOnly"
+5    android:versionCode="485"
+6    android:versionName="1.0.20201224-debug" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+9-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:7:5-65
+12-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:7:22-62
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:8:5-67
+13-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:8:22-64
+14    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+14-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:9:5-81
+14-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:9:22-78
+15    <uses-permission
+15-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:10:5-13:40
+16        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+16-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:11:9-65
+17        android:maxSdkVersion="28" />
+17-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:12:9-35
+18
+19    <uses-feature
+19-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:15:5-17:36
+20        android:name="android.hardware.touchscreen"
+20-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:16:9-52
+21        android:required="false" />
+21-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:17:9-33
+22    <uses-feature
+22-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:18:5-20:36
+23        android:name="android.software.leanback"
+23-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:19:9-49
+24        android:required="false" />
+24-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:20:9-33
+25    <uses-feature
+25-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:21:5-23:36
+26        android:name="android.hardware.camera"
+26-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:22:9-47
+27        android:required="false" />
+27-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:23:9-33
+28
+29    <permission
+30        android:name="com.wireguard.android.debug.permission.CONTROL_TUNNELS"
+30-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:26:9-67
+31        android:description="@string/permission_description"
+31-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:27:9-61
+32        android:icon="@mipmap/ic_launcher"
+32-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:28:9-43
+33        android:label="@string/permission_label"
+33-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:29:9-49
+34        android:protectionLevel="dangerous" />
+34-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:30:9-44
+35
+36    <queries>
+36-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:132:5-137:15
+37        <intent>
+37-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:133:9-136:18
+38            <action android:name="android.intent.action.MAIN" />
+38-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:48:17-69
+38-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:48:25-66
+39
+40            <category android:name="android.intent.category.LAUNCHER" />
+40-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:50:17-77
+40-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:50:27-74
+41        </intent>
+42    </queries>
+43
+44    <uses-permission android:name="android.permission.USE_BIOMETRIC" /> <!-- suppress DeprecatedClassUsageInspection -->
+44-->[androidx.biometric:biometric:1.1.0-rc01] /home/pramod/.gradle/caches/transforms-2/files-2.1/0e034918813f570f9919e42a2d216b6a/biometric-1.1.0-rc01/AndroidManifest.xml:24:5-72
+44-->[androidx.biometric:biometric:1.1.0-rc01] /home/pramod/.gradle/caches/transforms-2/files-2.1/0e034918813f570f9919e42a2d216b6a/biometric-1.1.0-rc01/AndroidManifest.xml:24:22-69
+45    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+45-->[androidx.biometric:biometric:1.1.0-rc01] /home/pramod/.gradle/caches/transforms-2/files-2.1/0e034918813f570f9919e42a2d216b6a/biometric-1.1.0-rc01/AndroidManifest.xml:27:5-74
+45-->[androidx.biometric:biometric:1.1.0-rc01] /home/pramod/.gradle/caches/transforms-2/files-2.1/0e034918813f570f9919e42a2d216b6a/biometric-1.1.0-rc01/AndroidManifest.xml:27:22-71
+46
+47    <uses-feature
+47-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/pramod/.gradle/caches/transforms-2/files-2.1/5cc24d331261e817746f2a63f4d94e4a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:28:5-30:36
+48        android:name="android.hardware.camera.front"
+48-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/pramod/.gradle/caches/transforms-2/files-2.1/5cc24d331261e817746f2a63f4d94e4a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:29:9-53
+49        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+49-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/pramod/.gradle/caches/transforms-2/files-2.1/5cc24d331261e817746f2a63f4d94e4a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:30:9-33
+50    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+51    <uses-feature
+51-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/pramod/.gradle/caches/transforms-2/files-2.1/5cc24d331261e817746f2a63f4d94e4a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:33:5-35:36
+52        android:name="android.hardware.camera.autofocus"
+52-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/pramod/.gradle/caches/transforms-2/files-2.1/5cc24d331261e817746f2a63f4d94e4a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:34:9-57
+53        android:required="false" />
+53-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/pramod/.gradle/caches/transforms-2/files-2.1/5cc24d331261e817746f2a63f4d94e4a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:35:9-33
+54    <uses-feature
+54-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/pramod/.gradle/caches/transforms-2/files-2.1/5cc24d331261e817746f2a63f4d94e4a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:36:5-38:36
+55        android:name="android.hardware.camera.flash"
+55-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/pramod/.gradle/caches/transforms-2/files-2.1/5cc24d331261e817746f2a63f4d94e4a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:37:9-53
+56        android:required="false" />
+56-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/pramod/.gradle/caches/transforms-2/files-2.1/5cc24d331261e817746f2a63f4d94e4a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:38:9-33
+57    <uses-feature
+57-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/pramod/.gradle/caches/transforms-2/files-2.1/5cc24d331261e817746f2a63f4d94e4a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:39:5-41:36
+58        android:name="android.hardware.screen.landscape"
+58-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/pramod/.gradle/caches/transforms-2/files-2.1/5cc24d331261e817746f2a63f4d94e4a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:40:9-57
+59        android:required="false" />
+59-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/pramod/.gradle/caches/transforms-2/files-2.1/5cc24d331261e817746f2a63f4d94e4a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:41:9-33
+60    <uses-feature
+60-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/pramod/.gradle/caches/transforms-2/files-2.1/5cc24d331261e817746f2a63f4d94e4a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:42:5-44:36
+61        android:name="android.hardware.wifi"
+61-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/pramod/.gradle/caches/transforms-2/files-2.1/5cc24d331261e817746f2a63f4d94e4a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:43:9-45
+62        android:required="false" />
+62-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/pramod/.gradle/caches/transforms-2/files-2.1/5cc24d331261e817746f2a63f4d94e4a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:44:9-33
+63
+64    <application
+64-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:32:5-130:19
+65        android:name="com.wireguard.android.Application"
+65-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:33:9-36
+66        android:allowBackup="false"
+66-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:34:9-36
+67        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+67-->[androidx.core:core:1.3.2] /home/pramod/.gradle/caches/transforms-2/files-2.1/583899d7bdb82034cf1dfcafc304d5df/core-1.3.2/AndroidManifest.xml:24:18-86
+68        android:banner="@mipmap/banner"
+68-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:35:9-40
+69        android:debuggable="true"
+70        android:icon="@mipmap/ic_launcher"
+70-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:36:9-43
+71        android:label="@string/app_name"
+71-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:37:9-41
+72        android:roundIcon="@mipmap/ic_launcher_round"
+72-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:38:9-54
+73        android:supportsRtl="true"
+73-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:39:9-35
+74        android:testOnly="true"
+75        android:theme="@style/AppTheme" >
+75-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:40:9-40
+76        <activity
+76-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:42:9-44:56
+77            android:name="com.wireguard.android.activity.TunnelToggleActivity"
+77-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:43:13-58
+78            android:theme="@style/NoBackgroundTheme" />
+78-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:44:13-53
+79        <activity android:name="com.wireguard.android.activity.MainActivity" >
+79-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:46:9-56:20
+79-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:46:19-56
+80            <intent-filter>
+80-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:47:13-51:29
+81                <action android:name="android.intent.action.MAIN" />
+81-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:48:17-69
+81-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:48:25-66
+82
+83                <category android:name="android.intent.category.LAUNCHER" />
+83-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:50:17-77
+83-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:50:27-74
+84            </intent-filter>
+85            <intent-filter>
+85-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:53:13-55:29
+86                <action android:name="android.service.quicksettings.action.QS_TILE_PREFERENCES" />
+86-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:54:17-99
+86-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:54:25-96
+87            </intent-filter>
+88        </activity>
+89        <activity
+89-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:58:9-65:20
+90            android:name="com.wireguard.android.activity.TvMainActivity"
+90-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:59:13-52
+91            android:theme="@style/TvTheme" >
+91-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:60:13-43
+92            <intent-filter>
+92-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:61:13-64:29
+93                <action android:name="android.intent.action.MAIN" />
+93-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:48:17-69
+93-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:48:25-66
+94
+95                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+95-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:63:17-86
+95-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:63:27-83
+96            </intent-filter>
+97        </activity>
+98        <activity
+98-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:67:9-70:67
+99            android:name="com.wireguard.android.activity.SettingsActivity"
+99-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:68:13-54
+100            android:label="@string/settings"
+100-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:69:13-45
+101            android:parentActivityName="com.wireguard.android.activity.MainActivity" />
+101-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:70:13-64
+102        <activity
+102-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:72:9-75:67
+103            android:name="com.wireguard.android.activity.TunnelCreatorActivity"
+103-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:73:13-59
+104            android:label="@string/create_activity_title"
+104-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:74:13-58
+105            android:parentActivityName="com.wireguard.android.activity.MainActivity" />
+105-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:75:13-64
+106        <activity
+106-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:77:9-80:49
+107            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+107-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:78:13-74
+108            android:clearTaskOnLaunch="true"
+108-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/pramod/.gradle/caches/transforms-2/files-2.1/5cc24d331261e817746f2a63f4d94e4a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:49:13-45
+109            android:screenOrientation="fullSensor"
+109-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:79:13-51
+110            android:stateNotNeeded="true"
+110-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/pramod/.gradle/caches/transforms-2/files-2.1/5cc24d331261e817746f2a63f4d94e4a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:51:13-42
+111            android:theme="@style/zxing_CaptureTheme"
+111-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/pramod/.gradle/caches/transforms-2/files-2.1/5cc24d331261e817746f2a63f4d94e4a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:52:13-54
+112            android:windowSoftInputMode="stateAlwaysHidden" />
+112-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/pramod/.gradle/caches/transforms-2/files-2.1/5cc24d331261e817746f2a63f4d94e4a/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:53:13-60
+113        <activity
+113-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:82:9-88:20
+114            android:name="com.wireguard.android.activity.LogViewerActivity"
+114-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:83:13-55
+115            android:label="@string/log_viewer_title" >
+115-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:84:13-53
+116            <intent-filter>
+116-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:85:13-87:29
+117                <action android:name="android.intent.action.MAIN" />
+117-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:48:17-69
+117-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:48:25-66
+118            </intent-filter>
+119        </activity>
+120
+121        <provider
+122            android:name="com.wireguard.android.activity.LogViewerActivity$ExportedLogContentProvider"
+122-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:91:13-82
+123            android:authorities="com.wireguard.android.debug.exported-log"
+123-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:92:13-64
+124            android:exported="false"
+124-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:93:13-37
+125            android:grantUriPermissions="true" />
+125-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:94:13-47
+126
+127        <receiver android:name="com.wireguard.android.BootShutdownReceiver" >
+127-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:96:9-101:20
+127-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:96:19-55
+128            <intent-filter>
+128-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:97:13-100:29
+129                <action android:name="android.intent.action.ACTION_SHUTDOWN" />
+129-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:98:17-80
+129-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:98:25-77
+130                <action android:name="android.intent.action.BOOT_COMPLETED" />
+130-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:99:17-79
+130-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:99:25-76
+131            </intent-filter>
+132        </receiver>
+133        <receiver
+134            android:name="com.wireguard.android.model.TunnelManager$IntentReceiver"
+134-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:104:13-63
+135            android:permission="com.wireguard.android.debug.permission.CONTROL_TUNNELS" >
+135-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:105:13-77
+136            <intent-filter>
+136-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:106:13-110:29
+137                <action android:name="com.wireguard.android.action.REFRESH_TUNNEL_STATES" />
+137-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:107:17-93
+137-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:107:25-90
+138                <action android:name="com.wireguard.android.action.SET_TUNNEL_UP" />
+138-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:108:17-85
+138-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:108:25-82
+139                <action android:name="com.wireguard.android.action.SET_TUNNEL_DOWN" />
+139-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:109:17-87
+139-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:109:25-84
+140            </intent-filter>
+141        </receiver>
+142
+143        <service
+143-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:113:9-125:19
+144            android:name="com.wireguard.android.QuickTileService"
+144-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:114:13-45
+145            android:icon="@drawable/ic_tile"
+145-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:115:13-45
+146            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" >
+146-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:116:13-77
+147            <intent-filter>
+147-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:118:13-120:29
+148                <action android:name="android.service.quicksettings.action.QS_TILE" />
+148-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:119:17-87
+148-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:119:25-84
+149            </intent-filter>
+150
+151            <meta-data
+151-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:122:13-124:41
+152                android:name="android.service.quicksettings.ACTIVE_TILE"
+152-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:123:17-73
+153                android:value="false" />
+153-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:124:17-38
+154        </service>
+155
+156        <meta-data
+156-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:127:9-129:56
+157            android:name="android.content.APP_RESTRICTIONS"
+157-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:128:13-60
+158            android:resource="@xml/app_restrictions" />
+158-->/home/pramod/Desktop/wireguard-android/ui/src/main/AndroidManifest.xml:129:13-53
+159
+160        <service
+160-->[:tunnel] /home/pramod/Desktop/wireguard-android/tunnel/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-22:19
+161            android:name="com.wireguard.android.backend.GoBackend$VpnService"
+161-->[:tunnel] /home/pramod/Desktop/wireguard-android/tunnel/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-78
+162            android:permission="android.permission.BIND_VPN_SERVICE" >
+162-->[:tunnel] /home/pramod/Desktop/wireguard-android/tunnel/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-69
+163            <intent-filter>
+163-->[:tunnel] /home/pramod/Desktop/wireguard-android/tunnel/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-21:29
+164                <action android:name="android.net.VpnService" />
+164-->[:tunnel] /home/pramod/Desktop/wireguard-android/tunnel/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-65
+164-->[:tunnel] /home/pramod/Desktop/wireguard-android/tunnel/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:25-62
+165            </intent-filter>
+166        </service>
+167    </application>
+168
+169</manifest>
